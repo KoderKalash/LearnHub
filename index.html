@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnHub - Your Gateway to Knowledge</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #3498db;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #2980b9 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #e74c3c;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('https://cdn.pixabay.com/photo/2017/10/01/14/14/street-2805643_960_720.jpg') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #features {
+            margin-top: 20px;
+        }
+        #features .box {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            text-align: center;
+        }
+        #features .box img {
+            width: 90px;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #3498db;
+            text-align: center;
+        }
+        @media(max-width: 768px) {
+            header #branding,
+            header nav,
+            header nav li,
+            #features .box {
+                float: none;
+                text-align: center;
+                width: 100%;
+            }
+            header {
+                padding-bottom: 20px;
+            }
+            #showcase h1 {
+                margin-top: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Learn</span>Hub</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li ><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Your Gateway to Knowledge</h1>
+            <p>Discover a world of learning opportunities at your fingertips</p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <div class="box">
+                <img src="https://cdn.pixabay.com/photo/2023/08/25/02/01/reader-8211917_960_720.png" alt="Courses">
+                <h3>Diverse Courses</h3>
+                <p>Explore a wide range of courses tailored to your interests and career goals.</p>
+            </div>
+            <div class="box">
+                <img src="https://images.pexels.com/photos/5212320/pexels-photo-5212320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Expert Instructors">
+                <h3>Expert Instructors</h3>
+                <p>Learn from industry professionals and experienced educators.</p>
+            </div>
+            <div class="box">
+                <img src="https://images.pexels.com/photos/68761/pexels-photo-68761.jpeg" alt="Flexible Learning">
+                <h3>Flexible Learning</h3>
+                <p>Study at your own pace, anytime and anywhere.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>LearnHub E-Learning Platform, Copyright &copy; 2024</p>
+    </footer>
+</body>
+</html>
